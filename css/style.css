@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+/* Home */
+.Home {
+  background-image: url(../img/events-heavenly-header.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.Home .trans {
+  background-color: rgba(214, 46, 51, 0.6);
+  height: 100vh;
+}
+.Home .trans h1 {
+  display: block;
+}
+.nav-box {
+  background-color: #414658;
+  background-color: #414658;
+  position: fixed;
+  z-index: 55555;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.nav-box .box ul {
+  padding: 20px 30px;
+}
+.nav-box .box ul i {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+}
+.nav-box .box ul li {
+  padding-top: 50px;
+  list-style: none;
+}
+.nav-box .box ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-box .box i:hover,
+.nav-box .box ul li a:hover {
+  color: brown;
+  cursor: pointer;
+}
+.nav-box .setting i {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  background-color: darkslateblue;
+  padding: 10px;
+  cursor: pointer;
+}
+/* End Home */
+
+/* Section 2 */
+.singers {
+  padding: 100px 0;
+  width: 50%;
+  margin: 0px auto;
+}
+.singers h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+.singers div {
+  background-color: #ccc;
+  display: none;
+}
+
+/*End Section 2 */
+
+/* Section 3  */
+
+#countsec {
+  background-image: url(../img/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 330px;
+}
+#countsec .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+}
+
+/* End Section 3 */
+
+/* Section 4 */
+.container {
+  padding: 8% 0px;
+}
+.p2 {
+  margin-left: 100px;
+}
+.icon {
+  margin-top: 60px;
+  color: #777;
+}
+.icon i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.icon i:hover {
+  background-color: rgba(214, 46, 51);
+  color: #fff;
+}
+#char span {
+  color: brown;
+  padding-left: 5%;
+}
+/*End Section 4 */
